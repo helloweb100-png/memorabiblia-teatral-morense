@@ -8,7 +8,19 @@
 
 /* ---------- Configuración (única fuente de verdad) ---------- */
 const WHATSAPP_NUMERO = '528681159959';        // Vacío = se oculta WhatsApp y queda solo el correo
-const YOUTUBE_URLS = {};                        // Ej.: { zuniga: 'https://youtu.be/…', lopez: 'https://youtu.be/…' }
+const YOUTUBE_URLS = {                          // clave = data-yt-link de la tarjeta en index.html; sin enlace = sigue "Próximamente"
+  zuniga:   'https://youtu.be/jU-wkTuVCsk',     // Entrevista · Luis Zúñiga
+  fajardo:  'https://youtu.be/1wNXPG8xSfs',     // Entrevista · Ramón Fajardo
+  garcia:   'https://youtu.be/tIT7Ye97F1Y',     // Entrevista · Joaquín García Quintana
+  addis:    'https://youtu.be/e0ZViQ3-WIA',     // Entrevista · Addis Abeba Santacruz
+  cisneros: 'https://youtu.be/4p2nXUZ-mGA',     // Entrevista · Carolina Cisneros
+  castro:   'https://youtu.be/I5vXjjAGTeE',     // Entrevista · Ana Karen Castro
+  zamora:   'https://youtu.be/_utwPb2YWzY',     // Entrevista · Marco A. Zamora
+  cruce:    'https://youtu.be/wbyuEvosIlI',     // Obra · El cruce
+  arbol:    'https://youtu.be/pa4SwiltjuM',     // Obra · El árbol
+  sorjuana: 'https://youtu.be/nhSSVqtmLkw'      // Obra · Transfiguraciones de Sor Juana
+  // lopez: 'https://youtu.be/…'                // Entrevista · Oscar Luis López Carreón (aún sin video)
+};
 const MENSAJE_BASE = 'Hola, vi la página de Memorabilia Teatral Matamorense y quiero participar.';
 const EMAIL = 'memorabilateatralmatamorense@gmail.com';
 
